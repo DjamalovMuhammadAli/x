@@ -1,0 +1,8 @@
+envWi_x
+db.sqlite3
+locale_settings.py
+*/__pycache__
+*/*/__pycache__
+*/migrations/*
+!*/migrations/__init__.py
+static
