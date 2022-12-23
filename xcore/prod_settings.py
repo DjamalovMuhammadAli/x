@@ -17,3 +17,7 @@ DATABASES = {
         'port': '5432',
     }
 }
+
+STATIC_DIR = Path(BASE_DIR, 'static')
+# STATICFILES_DIRS = [STATIC_DIR]
+STATIC_ROOT = Path(BASE_DIR, 'static')
